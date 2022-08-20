@@ -1,0 +1,212 @@
+.header{
+    background-color:white;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+html{
+    color: #333;
+}
+.text-black{
+    color: #333 !important;
+}
+.text-white{
+    color: white !important;
+}
+.sub-head{
+  opacity: 0.7;
+}
+.logo img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+.nav{
+    float: left;
+}
+.nav ul{
+    list-style: none;
+    left: 16px;
+}
+.nav li{
+    padding: 0 24px;
+}
+.nav li a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+.nav li a:hover{
+    opacity: 0.6;
+    text-decoration: underline;
+    color: rgb(35, 142, 196);
+}
+.header-right-icon i{
+    padding: 0 15px;
+}
+.banner{
+    height: 100vh;
+    overflow: hidden;
+   position: relative;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+}
+.content h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.content p{
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.7);
+}
+a.btn{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(2, 33, 118);
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+a.btn:hover{
+    background-color: rgba(255, 255, 0, 0.579);
+}
+.top-service{
+    background-color: white;
+    width: 100%;
+    padding: 64px 0;
+}
+.content-header h2{
+    color: white;
+    font-size: 35px;
+}
+.content-header p{
+    color:rgba(255, 255, 255, 0.7) ;
+    margin: 16px 0;
+}
+.feature-wrap{
+    display: flex;
+    justify-content: space-around;
+}
+.feature{
+    background: rgba(251, 251, 251, 0.286);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+padding: 25px;
+margin:0 15px;
+position: relative;
+}
+.feature-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.feature-content{
+    color: #333;
+}
+.feature-content h3{
+    font-size: 22px;
+    padding: 16px 0;
+}
+.feature-content h3:hover{
+    color: #fcbf1e;
+}
+.feature-content p{
+    color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 25px;
+}
+.time-people{
+    padding-bottom: 16px;
+}
+input{
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+}
+input.submit-form{
+    background-color: greenyellow;
+    border: 1px solid ;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 32px;
+}
+input.submit-form:hover{
+    background-color: #fcc11e9a;
+}
+label{
+    display: block;
+    color: rgba(51, 51, 51, 0.833);
+    font-size: 16px;
+    font-weight: bold;
+}
+.book-form{
+    background-color:rgba(51, 51, 51, 0.576);
+    padding: 64px ;
+}
+.book-form .content-header{
+padding-left: 90px;
+padding-bottom: 16px;
+}
+.recomend-service{
+    padding: 64px;
+    background-color:white;
+}
+.recomend-img img{
+    width: 100%;
+    padding: 0 15px;
+    border-radius: 10px;
+}
+.recomend-content{
+    padding:15px
+    ;
+}
+.recomend-content h6{
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.recomend-content h1{
+    line-height: 45px;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.recomend-content p{
+    font-size: 16px;
+    padding: 10px 0 32px 0;
+    line-height: 26px;
+}
+footer{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.footer-info{
+    line-height: 30px;
+    color: #333;
+}
+.footer-info i{
+padding: 0 5px;
+}
+.footer-social i{
+    color: #333;
+    padding: 10px;
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+}
+.footer-social i:hover{
+    background-color: greenyellow;
+    color: #333;
+}
+
